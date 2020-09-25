@@ -318,7 +318,7 @@ error_reporting(0);
 							</div>
 							<div class="row no-gutters">
 								<div class="col-auto col-sm-3">
-									Nama
+									Nama Kamu
 								</div>
 								<div class="col-6 col-sm-1">
 									:
@@ -329,7 +329,7 @@ error_reporting(0);
 							</div>
 							<div class="row no-gutters">
 								<div class="col-auto col-sm-3">
-									Tanggal lahir
+									Tanggal lahir Kamu
 								</div>
 								<div class="col-6 col-sm-1">
 									:
@@ -346,7 +346,7 @@ error_reporting(0);
 							</div>
 							<div class="row no-gutters">
 								<div class="col-auto col-sm-3">
-									PTN
+									PTN Kamu
 								</div>
 								<div class="col-6 col-sm-1">
 									:
@@ -360,7 +360,7 @@ error_reporting(0);
 							</div>
 							<div class="row no-gutters">
 								<div class="col-auto col-sm-3">
-									Program Studi
+									Program Studi Kamu
 								</div>
 								<div class="col-6 col-sm-1">
 									:
@@ -467,7 +467,7 @@ if (isset($_POST['submit'])) {
 } else {
     echo '
         <script type="text/javascript">
-        setTimeout(function () { swal("Perhatian!","Untuk sementara, format No Peserta yang saya tau:\nprefix 120, 12 digit\nex: 120XXXXXXXXX\n\nKalo sekiranya ada yg perlu diralat, contact saya via sosmed ya gan/sis, makasii\n\nIni hanya untuk hiburan semata.\nGunakan dengan bijak!","warning")}, 1000);
+        setTimeout(function () { swal("Perhatian!","Untuk sementara, format No. Peserta yang saya tau:\nprefix 120, 12 digit\nex: 120XXXXXXXXX\n\nKalo sekiranya ada yg perlu diralat, contact saya via sosmed ya gan/sis, makasii\n\nIni hanya untuk hiburan semata.\nGunakan dengan bijak!","warning")}, 1000);
         </script>
     ';
 }
