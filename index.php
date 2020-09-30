@@ -67,7 +67,7 @@ error_reporting(0);
         var x = document.forms["sbm"]["nopes"].value;
         var p = x.substring(0, 3);
         if ((x.length !== 12) || ((p !== "120") && (p !== "220"))) {
-            setTimeout(function () { swal("Invalid!","Periksa kembali penulisan Nomor Pendaftaran!\n\nKetentuan:\n- Jumlah digit 12\n- Diawali 120 (SAINTEK) atau 220 (SOSHUM)","error")}, 1000);
+            setTimeout(function () { swal("Invalid!","Mohon periksa kembali penulisan Nomor Pendaftaran!\n\nKetentuan:\n- Jumlah digit 12\n- Diawali 120 (SAINTEK) atau 220 (SOSHUM)","error")}, 1000);
             return false;
         }
 	}
@@ -151,7 +151,7 @@ error_reporting(0);
 
 		<div class="card card-block bg-faded mx-auto box-width">
 			<div class="card-header">
-				<strong>Masukkan data peserta SBMPTN Anda.</strong>	
+				<strong>Silahkan Masukkan data peserta SBMPTN Anda.</strong>	
 			</div>
 			<div class="card-body">
 				<form name="sbm" method="POST" action="">
@@ -467,7 +467,7 @@ if (isset($_POST['submit'])) {
 } else {
     echo '
         <script type="text/javascript">
-        setTimeout(function () { swal("Perhatian!","Untuk sementara, format No Peserta yang saya tau:\nprefix 120, 12 digit\nex: 120XXXXXXXXX\n\nKalo sekiranya ada yg perlu diralat, contact saya via sosmed ya gan/sis, makasii\n\nIni hanya untuk hiburan semata.\nGunakan dengan bijak!","warning")}, 1000);
+        setTimeout(function () { swal("Perhatian!","Untuk sementara ini, format No Peserta yang saya ketahui:\nprefix 120, 12 digit\nex: 120XXXXXXXXX\n\nKalo bilamana ada yg perlu diralat, silahkan contact saya via sosmed ya gan/sis, makasii\n\nIni hanya untuk hiburan semata yaaa.\nGunakan dengan bijak!","warning")}, 1000);
         </script>
     ';
 }
